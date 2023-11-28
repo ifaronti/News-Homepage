@@ -11,6 +11,17 @@
     src: url(components/fonts/static/Inter-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Inter Light';
+    src: url(components/fonts/static/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Variable';
+    src: url(components/fonts/static/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
 
 body{
     margin: 0;
@@ -50,8 +61,9 @@ ul{
 
 ul li {
     font-family: 'Inter Regular';
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1rem;
+    color: hsl(236, 15%, 41%);
 }
 h1{
     font-family: 'Inter Bold';
@@ -65,7 +77,7 @@ h1{
     width: 58.29%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
+    column-gap: 1.87rem;
 }
 
 .top-left{
@@ -73,12 +85,6 @@ h1{
     width: 730px;
     display: flex;
     flex-direction: column;
-}
-
-.top-right{
-    height: 510px;
-    width: 350px;
-    background-color: hsl(240, 100%, 5%);
 }
 
 .web3-image{
@@ -89,21 +95,103 @@ h1{
 
 .top-left-description{
     display: flex;
-    justify-content:first baseline;
+    justify-content:baseline;
+    gap: 3.782rem;
 }
 
 h2{
     font-family: 'Inter Bold';
-    font-weight: 800;
-    font-size: 3.5rem;
-    width: 300px;
-    
+    font-weight: 700;
+    font-size: 3.43rem;
+    width: 320px;
+    margin-top: 2.2rem;
+    line-height: 55.8px;
+    word-spacing: -2px;
 }
 
 .left-description{
-    font-size: 1rem;
+    font-size: 15px;
+    font-family: 'Inter Light';
+    width: 335px;
+    line-height: 24.79px;
+    margin-top:1.8rem;
+    color:  hsl(240, 100%, 5%);
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.more{
+    height: 50px;
+    width: 185px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    position: relative;
+    top: 19.5px;
     font-family: 'Inter Regular';
-    width: 365px;
+    font-size: 15px;
+    color: #FFEDE8;
+    letter-spacing: 4px;
+}
+
+.top-right{
+    position: relative;
+    height: 511px;
+    width: 351px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.top-right-contents{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+    margin-left: 1.58rem;
+    
+
+}
+
+h3{
+    font-size: 2.4rem;
+    color: hsl(35, 77%, 62%);
+    font-family: 'Inter Regular';
+    position: relative;
+    margin-top: 1.9rem;
+}
+
+.top-right-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: -2.5rem;
+}
+
+.head{
+    color: #FAFAFF;
+    font-family: 'Inter Regular';
+    font-size: 1.27rem;
+    font-weight: 700;
+    position: relative;
+    top: 6px;
+}
+
+.description{
+    font-family: 'Inter Regular';
+    color: #BCBDD2;
+    font-weight: 100;
+    font-size: 15px;
+    width: 92%;
+    position: relative;
+    top: -1.3rem;
     line-height: 25px;
-    word-spacing: 1px;
+}
+
+.field-bar{
+    height: 1px;
+    width: 92.5%;
+    background-color: hsl(236, 13%, 42%);
+    position: relative;
+    top: -4px;
 }
