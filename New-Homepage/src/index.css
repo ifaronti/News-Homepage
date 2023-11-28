@@ -115,9 +115,9 @@ h2{
     width: 335px;
     line-height: 24.79px;
     margin-top:1.8rem;
-    color:  hsl(240, 100%, 5%);
+    color:  hsl(236, 15%, 41%);
     font-weight: 300;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .more{
@@ -195,3 +195,57 @@ h3{
     position: relative;
     top: -4px;
 }
+
+.bottom-wrap{
+    position: relative;
+    top: 21.11rem;
+    display: flex;
+    justify-self: center;
+    gap: 2rem;
+    width: 76.98%;
+}
+
+.headline-card{
+    display: flex;
+    width: 351px;
+    gap: 1.5rem;
+}
+
+.headline-img{
+    width: 100px;
+    height: 128px;
+}
+
+.heading-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.headline-id{
+    color: #C8C5CD;
+    font-family: 'Inter Regular';
+    font-size: 2rem;
+    margin-bottom: -2rem;
+    margin-top: -4px;
+}
+
+.headline-heading{
+    color: #060415;
+    font-family: 'Inter Bold';
+    font-size: 1.1rem;
+    position: relative;
+    font-weight: 400;
+    top: 11px;
+    letter-spacing: .2px;
+}
+
+.headline-details{
+    font-family: 'Inter Light';
+    font-size: 15px;
+    color: hsl(236, 15%, 41%);
+    line-height: 25px;
+    position: relative;
+    top: -1.5rem;
+    letter-spacing: .1px;
+}
+
