@@ -1,7 +1,7 @@
 export default function Navbar(){
     return(
         <nav>
-            <h1>W.</h1>
+            <img src={`${process.env.PUBLIC_URL}/assets/images/logo.svg`} alt="" />
             <ul>
                 <li>Home</li>
                 <li>New</li>

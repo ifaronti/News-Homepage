@@ -1,11 +1,26 @@
+import { useEffect, useState } from "react"
+
 export default function Top(){
+    let [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+    useEffect(()=> {
+        window.addEventListener('resize', function(){
+            setWindowWidth(window.innerWidth)
+        })
+        return window.removeEventListener('resize', function(){
+            setWindowWidth(window.innerWidth)
+        })
+    }, [])
+
+    
+return(
     <div className="top-content">
         <div className="top-left">
-            <img src="" alt="" />
+            <img className="web3-image" src={`${process.env.PUBLIC_URL}/assets/images/${windowWidth > 700 ? 'image-web-3-desktop.jpg':'image-web-3-mobile.jpg'}`} alt="" />
             <div className="top-left-description">
                 <h2>The Bright Future of Web 3.0?</h2>
                 <div className="description-more">
-                    <p className="left description">We dive into the next
+                    <p className="left-description">We dive into the next
                         evolution of the web that claims to put the power of
                         the platforms back into the hands of people. But 
                         is it really fulfilling its promise?
@@ -35,9 +50,9 @@ export default function Top(){
                 <p>Private funding by VC firms is down 50% YOY. 
                     We take a look at what that means.
                 </p>
-                <div className="field-bar"></div>
             </div>
             
         </div>
     </div>
+)
 }

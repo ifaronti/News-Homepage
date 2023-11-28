@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(components/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'Inter ExtraBold';
+    src: url(components/fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Inter Regular';
+    src: url(components/fonts/static/Inter-Regular.ttf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.app{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-color: #FEFDF9;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+nav{
+    position: absolute;
+    top: 4.697rem;
+    display: flex;
+    height: 70px;
+    width: 76.98%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 2.4rem;
+    list-style: none;
+}
+
+ul li {
+    font-family: 'Inter Regular';
+    font-weight: 300;
+    font-size: 1rem;
+}
+h1{
+    font-family: 'Inter Bold';
+    font-size: 4rem;
+}
+
+.top-content{
+    position: absolute;
+    top: 11.5rem;
+    left: 10.3rem;
+    width: 58.29%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.top-left{
+    position: relative;
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-right{
+    height: 510px;
+    width: 350px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.web3-image{
+    font-family: 'Inter ExtraBold';
+    height: 300px;
+    width: 730px;
+}
+
+.top-left-description{
+    display: flex;
+    justify-content:first baseline;
+}
+
+h2{
+    font-family: 'Inter Bold';
+    font-weight: 800;
+    font-size: 3.5rem;
+    width: 300px;
+    
+}
+
+.left-description{
+    font-size: 1rem;
+    font-family: 'Inter Regular';
+    width: 365px;
+    line-height: 25px;
+    word-spacing: 1px;
+}
