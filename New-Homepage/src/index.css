@@ -63,6 +63,11 @@ ul li {
     font-weight: 100;
     font-size: 1rem;
     color: hsl(236, 15%, 41%);
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: hsl(5, 85%, 63%);
 }
 
 .mobile-menu{
@@ -131,7 +136,14 @@ h1{
     font-size: 15px;
     color: #FFEDE8;
     letter-spacing: 4px;
+    cursor: pointer;
 }
+
+.more:hover{
+    background-color: #00001A;
+    color: white;
+}
+
 
 @media only screen and (min-width:320px) and (max-width:860px){
     body{
@@ -209,10 +221,10 @@ h1{
 
     .showLinks::after{
         position: absolute;
-        left: -50%;
+        left: -70%;
         content: '';
         height: 100vh;
-        width: 50%;
+        width: 70%;
         float: left;
         background-color: hsl(240, 100%, 5%);
         opacity: 0.4;
@@ -342,6 +354,11 @@ h2{
     position: relative;
     top: 12px;
     letter-spacing: -.3px;
+    cursor: pointer;
+}
+
+.head:hover{
+    color: hsl(35, 77%, 62%);
 }
 
 .description{
@@ -472,6 +489,11 @@ h2{
     font-weight: 400;
     top: 11px;
     letter-spacing: .2px;
+    cursor: pointer;
+}
+
+.headline-heading:hover{
+    color: hsl(5, 85%, 63%);
 }
 
 .headline-details{
