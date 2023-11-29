@@ -133,6 +133,8 @@ h1{
        display: flex;
        justify-content: center;
        align-items: center;
+       background-color: #FEFDF9;
+       overflow-x: hidden;
     }
     
     .app{
@@ -144,6 +146,7 @@ h1{
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        overflow-x: hidden;
     }
     
     nav{
@@ -154,6 +157,14 @@ h1{
         width: 76.98%;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .logo{
+        position: absolute;
+        height: 1.8rem;
+        width: 2.8rem;
+        left: -1.8rem;
+        top: 3rem;
     }
     
     ul{
@@ -208,18 +219,19 @@ h1{
         width: 320px;
         line-height: 40px;
         letter-spacing: -.3px;
+        margin-top: 1.5rem;
     }
     
     .left-description{
         font-size: 15px;
         font-family: 'Inter Light';
         width: 335px;
-        line-height: 24.79px;
+        line-height: 26px;
         color:  hsl(236, 15%, 41%);
         font-weight: 300;
         opacity: 0.9;
         letter-spacing: .1px;
-        margin-top: -5rem;
+        margin-top: -4.5rem;
     }
     
     .more{
@@ -228,7 +240,7 @@ h1{
         background-color: hsl(5, 85%, 63%);
         border: none;
         position: relative;
-        top: 19.5px;
+        top: 9px;
         font-family: 'Inter Regular';
         font-size: 15px;
         color: #FFEDE8;
@@ -302,6 +314,72 @@ h2{
     top: 2px;
 }
 
+@media only screen and (min-width:320px) and (max-width:860px){
+    .top-right{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 1.5rem;
+        height: 490px;
+        width: 344px;
+        background-color: hsl(240, 100%, 5%);
+    }
+    
+    .top-right-contents{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0;
+        margin-left: 1.3rem;
+        
+    
+    }
+    
+    h2{
+        font-size: 2rem;
+        color: hsl(35, 77%, 62%);
+        font-family: 'Inter Regular';
+        position: relative;
+        top: -5px;
+    }
+    
+    .top-right-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        top: -2.2rem;
+    }
+    
+    .head{
+        color: #FAFAFF;
+        font-family: 'Inter Regular';
+        font-size: 1.27rem;
+        font-weight: 700;
+        position: relative;
+        top: 15px;
+        letter-spacing: -.3px;
+    }
+    
+    .description{
+        font-family: 'Inter Regular';
+        color: #BCBDD2;
+        font-weight: 100;
+        font-size: 15px;
+        width: 92%;
+        position: relative;
+        top: -.9rem;
+        line-height: 25px;
+    }
+
+    .last-desc{
+        position: relative;
+        top: 11px;
+    }
+}
+
 /* ******************************** Bottom part *******************8****/
 
 .bottom-wrap{
@@ -356,4 +434,24 @@ h2{
     top: -1.5rem;
     letter-spacing: .1px;
 }
+
+@media only screen and (min-width:320px) and (max-width:860px){
+    .bottom-wrap{
+        flex-direction: column;
+        align-content: center;
+        top: 17rem;
+        margin-left: -3.3rem;
+        gap: 1px;
+    }
+
+    .headline-card{
+        margin-bottom: -5px;
+    }
+
+    .headline-details{
+        padding-right: 7px;
+    }
+}
+
+
 

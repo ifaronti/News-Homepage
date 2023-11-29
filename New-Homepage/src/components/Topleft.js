@@ -47,7 +47,7 @@ return(
                 </div>
 
                 <div className="top-right-description">
-                    <h3 className="head">Is VC Funding Drying Up?</h3>
+                    <h3 className="head last-desc">Is VC Funding Drying Up?</h3>
                     <p className="description">Private funding by VC firms is down 50% YOY. 
                         We take a look at what that means.
                     </p>
