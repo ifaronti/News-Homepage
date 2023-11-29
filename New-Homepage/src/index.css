@@ -21,8 +21,6 @@
     src: url(components/fonts/static/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-
-
 body{
     margin: 0;
     padding: 0;
@@ -36,7 +34,7 @@ body{
 .app{
     position: relative;
     width: 1440px;
-    height: 1024px;
+    min-height: 100vh;
     background-color: #FEFDF9;
     display: grid;
     grid-template-columns: 1fr;
@@ -65,11 +63,6 @@ ul li {
     font-size: 1rem;
     color: hsl(236, 15%, 41%);
 }
-/* h1{
-    font-family: 'Inter Bold';
-    font-size: 4rem;
-    letter-spacing: 1rem;
-} */
 
 .top-content{
     position: absolute;
@@ -133,6 +126,114 @@ h1{
     font-size: 15px;
     color: #FFEDE8;
     letter-spacing: 4px;
+}
+
+@media only screen and (min-width:320px) and (max-width:860px){
+    body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .app{
+        position: relative;
+        width: 100vw;
+        min-height: 1024px;
+        background-color: #FEFDF9;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav{
+        position: absolute;
+        top: 4.697rem;
+        display: flex;
+        height: 70px;
+        width: 76.98%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    
+    ul li {
+        font-family: 'Inter Regular';
+        font-weight: 100;
+        font-size: 1rem;
+        color: hsl(236, 15%, 41%);
+    }
+    
+    .top-content{
+        position: relative;
+        top: 11.5rem;
+        left: 0;
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .top-left{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .web3-image{
+        height: 300px;
+        width: 343px;
+    }
+    
+    .top-left-description{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-left: -.4rem;
+    }
+    
+    h1{
+        font-family: 'Inter Bold';
+        font-weight: 700;
+        font-size: 2.5rem;
+        width: 320px;
+        line-height: 40px;
+        letter-spacing: -.3px;
+    }
+    
+    .left-description{
+        font-size: 15px;
+        font-family: 'Inter Light';
+        width: 335px;
+        line-height: 24.79px;
+        color:  hsl(236, 15%, 41%);
+        font-weight: 300;
+        opacity: 0.9;
+        letter-spacing: .1px;
+        margin-top: -5rem;
+    }
+    
+    .more{
+        height: 50px;
+        width: 185px;
+        background-color: hsl(5, 85%, 63%);
+        border: none;
+        position: relative;
+        top: 19.5px;
+        font-family: 'Inter Regular';
+        font-size: 15px;
+        color: #FFEDE8;
+        letter-spacing: 4px;
+    }
 }
 
 .top-right{
