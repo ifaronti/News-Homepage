@@ -6,6 +6,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Links]
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -25,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/ifaronti/News-Homepage)
+- Live Site URL: (https://ifa-s-news-homepage.netlify.app/))
 
 ## My process
 As with all my projects, I start by thinking of the CSS first. Knowing which item go where and where the item goes determines the container it'll go into. This project has a lot of tricky aspects like the bottom articles. The bottom articles can be arranged with flex or grid depending on what you are comfortable with. each article has an image, 2 headings and a paragraph. Each article needs to be arranged with flex or grid meaning more containers within each article. Without flexbox or  css grid, using positioning to arrange these articles will kill too much time so I had to use forsight. The mobile design comes with its own challenges; each container used must be reusable for the mobile workflow. I used flex-direction property to help me with this and the default flex gap was coutered with negative margins to help line the articles according to design image. I used 'pixel-perfet' to help determine font-size, flex gap, grid gap and items positions.
