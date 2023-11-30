@@ -85,7 +85,6 @@ ul li:hover{
 
 .top-left{
     position: relative;
-    width: 730px;
     display: flex;
     flex-direction: column;
 }
@@ -162,7 +161,6 @@ h1{
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 5rem;
         overflow-x: hidden;
         
     }
@@ -170,7 +168,7 @@ h1{
     nav{
         position: absolute;
         top: 4.697rem;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         width: 76.98%;
         align-items: center;
@@ -217,7 +215,7 @@ h1{
         z-index: 40;
         align-items: flex-start;
         align-self: flex-end;
-        position: absolute;
+        position: fixed;
         right: -10%;
     }
 
@@ -257,7 +255,7 @@ h1{
     .top-left{
         position: relative;
         display: flex;
-        max-width: 100vw;
+        max-width: 92vw;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -265,7 +263,7 @@ h1{
     
     .web3-image{
         height: 300px;
-        width: 91.7333%;
+        width: 92vw;
     }
     
     .top-left-description{
@@ -273,7 +271,7 @@ h1{
         flex-direction: column;
         justify-content:center;
         margin-left: -.4rem;
-        width: 91.7333%;
+        width: 92vw;
     }
     
     h1{
@@ -456,7 +454,7 @@ h2{
 
 .bottom-wrap{
     position: relative;
-    top: 21.11rem;
+    top: 22rem;
     display: flex;
     justify-self: center;
     gap: 2rem;
@@ -517,9 +515,10 @@ h2{
         flex-direction: column;
         align-content: center;
         top: 17rem;
-        width: 91.7333%;
+        width: 92vw;
         justify-content: center;
         gap: 1px;
+        overflow-y: hidden;
     }
 
     .headline-card{
