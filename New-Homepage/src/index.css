@@ -272,6 +272,7 @@ h1{
         flex-direction: column;
         justify-content:center;
         margin-left: -.4rem;
+        width: 91.7333%;
     }
     
     h1{
@@ -385,10 +386,13 @@ h2{
     .top-right{
         display: flex;
         justify-content: center;
+        align-self: center;
+        flex-grow: 0;
         position: relative;
         top: 1.5rem;
         height: 490px;
         width: 344px;
+        max-width: 92%;
         background-color: hsl(240, 100%, 5%);
     }
     
@@ -512,7 +516,7 @@ h2{
         flex-direction: column;
         align-content: center;
         top: 17rem;
-        width: 344px;
+        width: 91.7333%;
         justify-content: center;
         gap: 1px;
     }
