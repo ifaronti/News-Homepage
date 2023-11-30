@@ -29,7 +29,6 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
-    overflow-x: hidden;
 }
 
 .app{
@@ -164,6 +163,8 @@ h1{
         flex-direction: column;
         align-items: center;
         margin-bottom: 5rem;
+        overflow-x: hidden;
+        
     }
     
     nav{
@@ -200,8 +201,8 @@ h1{
     .mobile-menu{
         display: block;
         position: absolute;
-        right: -1.4rem;
-        top: 3rem;
+        right: -1.7rem;
+        top: 3.36rem;
         z-index: 80;
     }
     
@@ -391,8 +392,8 @@ h2{
         position: relative;
         top: 1.5rem;
         height: 490px;
-        width: 344px;
-        max-width: 92%;
+        width: 92vw;
+        max-width: 600px;
         background-color: hsl(240, 100%, 5%);
     }
     
