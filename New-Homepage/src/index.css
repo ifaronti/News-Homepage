@@ -269,8 +269,6 @@ h1{
     .top-left-description{
         display: flex;
         flex-direction: column;
-        justify-content:center;
-        margin-left: -.4rem;
         width: 92vw;
     }
     
@@ -386,12 +384,11 @@ h2{
         display: flex;
         justify-content: center;
         align-self: center;
-        flex-grow: 0;
         position: relative;
         top: 1.5rem;
         height: 490px;
         width: 92vw;
-        max-width: 600px;
+        max-width: 92vw;
         background-color: hsl(240, 100%, 5%);
     }
     
