@@ -749,6 +749,7 @@ h2{
         width: 92%;
         justify-content: center;
         gap: 1px;
+        margin-bottom: 3rem;
     }
 
     .headline-card{
@@ -768,11 +769,8 @@ h2{
         top: 17rem;
         width: unset;
         justify-content: center;
+        margin-bottom: 2rem;
     }
-
-    /* .headline-card{
-        margin-bottom: -5px;
-    } */
 
     .headline-details{
         padding-right: 7px;
